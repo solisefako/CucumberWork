@@ -1,0 +1,89 @@
+version: 0.2
+
+run-as: 
+
+env:
+  shell: 
+  variables:
+    key: 
+    key: 
+  parameter-store:
+    key: 
+    key: 
+  exported-variables:
+   
+   
+  secrets-manager:
+    key: 
+  git-credential-helper: 
+
+proxy:
+  upload-artifacts: 
+  logs: 
+
+batch:
+  fast-fail: 
+  # build-list:
+  # build-matrix:
+  # build-graph:
+        
+phases:
+  install:
+    
+    commands:
+      
+    finally:
+      
+  pre_build:
+    run-as: 
+    on-failure: 
+    commands:
+      
+    finally:
+      
+  build:
+    run-as: 
+    on-failure: 
+    commands:
+      - mvn clean install
+      
+    finally:
+      
+  post_build:
+    run-as: 
+    on-failure: 
+    commands:
+    
+    finally:
+     
+reports:
+  report-group-name-or-arn:
+    files:
+     
+    base-directory:
+    file-format: 
+artifacts:
+  files:
+    
+  name: 
+  discard-paths: 
+  base-directory: 
+  exclude-paths: 
+  enable-symlinks: 
+  s3-prefix: 
+  secondary-artifacts:
+    artifactIdentifier:
+      files:
+       
+      name: 
+      discard-paths: 
+      base-directory: 
+    artifactIdentifier:
+      files:
+     
+      discard-paths: 
+      base-directory: 
+cache:
+  paths:
+    
+
